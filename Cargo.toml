@@ -1,0 +1,13 @@
+[package]
+name = "rust-control-plane"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+prost = "0.13.1"
+tonic = "0.12.1"
+
+[build-dependencies]
+glob = "0.3.1"
+prost-build = "0.13.1"
+tonic-build = "0.12.1"
