@@ -1,1 +1,2 @@
-mod envoy;
+#![allow(clippy::all)]
+include!("mod.rs");
